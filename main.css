@@ -1,0 +1,112 @@
+/* CSS reset */
+body {
+  background: url('assets/technology-background-5.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.container{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.top-finger{
+  background-image: url(assets/top-finger.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+  height: 168px;
+}
+
+.card{
+  height: 400px;
+  width: 600px;
+  color: aquamarine;
+  max-width: calc(100vw - 30px);
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  margin-top: -17px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bottom-finger{
+  background-image: url(assets/bottom-finger.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+  height: 125px;
+  
+}
+
+.card-head{
+  height: 45%;
+  width: 100%;
+  background-image: url(assets/backgroundcity.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom left;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  
+}
+img{
+    position: relative;
+    margin: 5vh 5vh;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 3px;
+}
+#card-body{
+	width: 100%;
+	height: 55%;
+	position: relative;
+  display: block;
+	float: left;
+}
+
+.head{
+  width: 45%;
+	height: 100%
+	text-align: center;
+	float: left;
+	margin-left: 50px;
+}
+
+.contact{
+	width: 45%;
+	height: 100%;
+	color:;
+	text-align: center;
+	float: left;
+}
+
+.about{
+	text-align:center;
+	width: 100%;
+	height: 40%;
+	float: left;
+}
+
+.left{
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+
+
