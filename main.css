@@ -135,7 +135,7 @@ li {
   display: inline;
 }
 
-@media only screen and (max-width:400px){
+@media all screen and (max-width:400px){
     .card{
         width: calc(100vw - 30px);
     }
